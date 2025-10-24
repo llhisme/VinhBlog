@@ -4,7 +4,7 @@
 
 theme = "congo"
 
-baseURL = "https://nguyenhuyvinh12a15-unclevinh.github.io/VinhBlog/"
+baseURL = "https://llhisme.github.io/VinhBlog/"
 defaultContentLanguage = "vi"
 
 enableRobotsTXT = true
