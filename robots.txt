@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://llhisme.github.io/VinhBlog/sitemap.xml
