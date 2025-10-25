@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    name: Build Example Site
+    name: Test Build My Site
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -22,5 +22,4 @@ jobs:
           extended: true
 
       - name: Build
-        working-directory: ./exampleSite
-        run: hugo --minify --themesDir ../.. --baseURL https://jpanther.github.io/congo/
+        run: hugo --minify

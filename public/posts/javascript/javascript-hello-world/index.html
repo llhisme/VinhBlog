@@ -143,7 +143,7 @@
     "keywords": ["JavaScript","HTML","Cơ Bản","Hello World"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "115"
+    "wordCount": "861"
   }
   </script>
     
@@ -504,7 +504,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <span title="Thời gian đọc">1 phút</span>
+      <span title="Thời gian đọc">5 phút</span>
     
 
     
@@ -558,7 +558,7 @@
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <h2 id="bài-1-cách-javascript-giao-tiếp-với-html-và-hello-world-" class="relative group">Bài 1: Cách JavaScript &ldquo;giao tiếp&rdquo; với HTML và &ldquo;Hello, World!&rdquo; 🚀 </h2><p>Chào mừng bạn đến với series &ldquo;JavaScript - Làm chủ thế giới Web&rdquo;! Ở bài mở đầu, chúng ta đã thống nhất rằng HTML là khung xương, CSS là da thịt, còn JavaScript chính là &ldquo;bộ não&rdquo; mang lại sự sống và khả năng tương tác.</p>
 <p>Vậy, làm thế nào để &ldquo;lắp&rdquo; bộ não JavaScript này vào &ldquo;cơ thể&rdquo; HTML? Trong bài hôm nay, chúng ta sẽ học cách thực hiện điều đó và &ldquo;nói&rdquo; lời chào đầu tiên.</p>
-<h2 id="javascript-sống-ở-đâu-trên-trang-html" class="relative group">JavaScript &ldquo;sống&rdquo; ở đâu trên trang HTML? </h2><p>Giống như một chiếc xe cần hệ thống điện để hoạt động, một trang HTML cần thẻ <script> để &ldquo;chạy&rdquo; được mã JavaScript. Có 3 cách chính để thêm hệ thống điện này:</p>
+<h2 id="javascript-sống-ở-đâu-trên-trang-html" class="relative group">JavaScript &ldquo;sống&rdquo; ở đâu trên trang HTML? </h2><p>Giống như một chiếc xe cần hệ thống điện để hoạt động, một trang HTML cần thẻ <code>&lt;</code>script<code>&gt;</code> để &ldquo;chạy&rdquo; được mã JavaScript. Có 3 cách chính để thêm hệ thống điện này:</p>
 <h3 id="1-external-script-file-riêng---cách-chuyên-nghiệp-khuyên-dùng" class="relative group">1. External Script (File riêng) - Cách chuyên nghiệp (Khuyên dùng) </h3><p>Đây là cách làm sạch sẽ và được khuyến khích nhất. Bạn sẽ viết tất cả mã JavaScript của mình vào một tệp riêng biệt có đuôi là .js (ví dụ: app.js).</p>
 <p>Hãy tưởng tượng HTML là bản thiết kế ngôi nhà, CSS là bản vẽ nội thất, và app.js là bản thiết kế hệ thống điện. Mỗi thứ ở một tệp riêng, rất ngăn nắp.</p>
 <p><strong>Trong file <code>index.html</code>:</strong>
@@ -581,7 +581,7 @@ Bạn dùng thẻ <code>&lt;script&gt;</code> với thuộc tính <code>src</cod
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Toàn bộ mã JavaScript của bạn sẽ nằm ở đây.
 </span></span></span><span class="line"><span class="cl"><span class="c1">// Ví dụ:
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;File app.js đã được tải!&#34;</span><span class="p">);</span>
-</span></span></code></pre></div><h3 id="2-internal-script-nội-tuyến---cách-dùng-để-thử-nhanh" class="relative group">2. Internal Script (Nội tuyến) - Cách dùng để thử nhanh </h3><p>Bạn có thể viết mã JavaScript trực tiếp vào bên trong tệp HTML, bằng cách đặt chúng giữa cặp thẻ <code>&lt;script&gt;...&lt;/script&gt;</code>.</p>
+</span></span></code></pre></div><h3 id="2-internal-script-nội-tuyến---cách-dùng-để-thử-nhanh" class="relative group">2. Internal Script (Nội tuyến) - Cách dùng để thử nhanh </h3><p>Bạn có thể viết mã JavaScript trực tiếp vào bên trong tệp HTML, bằng cách đặt chúng giữa cặp thẻ <code>`&lt;script&gt;...&lt;/script&gt;`</code>.</p>
 <p>Cách này tiện lợi khi bạn chỉ muốn thử nghiệm nhanh một đoạn code nhỏ mà không muốn tạo file mới.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
